@@ -58,13 +58,13 @@ section {
 	width: 60%;
 	padding: 10px;
 	display: inline-block;
-	background-color: #bbc1bd;
+	background-image: url(http://matkovenglish.wikispaces.com/file/view/vintage-paper-scroll-backgrounds-wallpapers.jpg/300348142/vintage-paper-scroll-backgrounds-wallpapers.jpg);
 }
 aside {
     width: 35%;
     padding: 10px; 
     float: right;
-    background-color: #000;
+    background-image: url(http://matkovenglish.wikispaces.com/file/view/vintage-paper-scroll-backgrounds-wallpapers.jpg/300348142/vintage-paper-scroll-backgrounds-wallpapers.jpg);
 
 }
 .clear{
@@ -73,6 +73,6 @@ aside {
 
 footer {
  	text-align: center;
- 	background-color: #a1a0a4;
+ 	background-image: url(http://matkovenglish.wikispaces.com/file/view/vintage-paper-scroll-backgrounds-wallpapers.jpg/300348142/vintage-paper-scroll-backgrounds-wallpapers.jpg);
  	padding: 10px;
  }
