@@ -8,11 +8,12 @@ body {
 
 .container {
 	width: 80%;
-	margin: 0 auto;
+	margin: auto;
+
 }
 
 header {
-    background-color: #3f5478;
+ 
     padding-top:  10px;
 }
 
@@ -49,22 +50,30 @@ li a:hover {text-decoration: underline;
 	font-weight: bold;
 }
 
-main {
-	background-color: #7f8ba5;
 
+ main {
+	background-image: url(http://www.renders-graphiques.fr/image/upload/normal/scrollrenderpn.png);
+	background-color: #000;
+	background-position: center;/* centers the bg image */
+	background-repeat: no-repeat; /* makes sure the bg doesn't repeat */
+	background-attachment: fixed; /* makes the bg not move */
+	background-size: cover; /* lets the bg fill the entire body */
+	display: table; /* allows the .container to be centered */
+    padding: 10px;
+    background-size: cover; /* lets the bg fill the entire body */
+	background-blend-mode: overlay;
+    background-attachment: fixed;
 }
 
 section {
 	width: 60%;
 	padding: 10px;
 	display: inline-block;
-	background-image: url(http://orig05.deviantart.net/5d48/f/2013/136/c/3/scroll_png_by_aarzikhan-d65h0si.png);
-}
+	
 aside {
     width: 35%;
     padding: 10px; 
     float: right;
-    background-image: url(http://orig05.deviantart.net/5d48/f/2013/136/c/3/scroll_png_by_aarzikhan-d65h0si.png);
 
 }
 .clear{
@@ -73,6 +82,5 @@ aside {
 
 footer {
  	text-align: center;
- 	background-image: url(http://orig05.deviantart.net/5d48/f/2013/136/c/3/scroll_png_by_aarzikhan-d65h0si.png);
  	padding: 10px;
  }
