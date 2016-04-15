@@ -52,8 +52,8 @@ li a:hover {text-decoration: underline;
 
 
  main {
-	background-image: url(http://www.renders-graphiques.fr/image/upload/normal/scrollrenderpn.png);
-	background-color: #000;
+	background-image: url("http://www.renders-graphiques.fr/image/upload/normal/scrollrenderpn.png");
+	
 	background-position: center;/* centers the bg image */
 	background-repeat: no-repeat; /* makes sure the bg doesn't repeat */
 	background-attachment: fixed; /* makes the bg not move */
@@ -63,6 +63,8 @@ li a:hover {text-decoration: underline;
     background-size: cover; /* lets the bg fill the entire body */
 	background-blend-mode: overlay;
     background-attachment: fixed;
+    width: 950px;
+    height: 900px;
 }
 
 section {
@@ -73,7 +75,7 @@ section {
 aside {
     width: 35%;
     padding: 10px; 
-    float: right;
+    align-content: right;
 
 }
 .clear{
