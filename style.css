@@ -56,16 +56,16 @@ li a:hover {text-decoration: underline;
 	
 	background-position: center;/* centers the bg image */
 	background-repeat: no-repeat; /* makes sure the bg doesn't repeat */
-	background-attachment: fixed; /* makes the bg not move */
+ /* makes the bg not move */
 	background-size: cover; /* lets the bg fill the entire body */
 	display: table; /* allows the .container to be centered */
     padding: 10px;
     background-size: cover; /* lets the bg fill the entire body */
 	background-blend-mode: overlay;
-    background-attachment: fixed;
-    width: 950px;
-    height: 900px;
+    background-size: 100% 100%;
 }
+    
+   
 
 section {
 	width: 60%;
