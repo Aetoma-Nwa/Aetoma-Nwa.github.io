@@ -1,15 +1,21 @@
 body {
 	background-color: #7a8dc1;
-	background-image:  url(Creole_Images/paper-815119_960_720.jpg); 
-	
+	background-image:  url(Creole_Images/paper-815119_960_720.jpg); 	
 	color: #fff;
     font-family: Arial;
+
 }
 
 .container {
 	width: 80%;
 	margin: auto;
 
+
+}
+
+#Flag {
+	border: 15px solid #555B6E;
+	border-style: ridge;
 }
 
 header {
@@ -24,22 +30,32 @@ header h1 {
 header h2 {
 	text-align: center;
 	margin-left: 10px;
+
 }
 
 nav {
-	background-color: #1B2A41;
-	padding: 5px;
+	background-color: #ba1818;
+	padding:5 5 5 5px;
+	padding-left: 15px;
+	padding-right: 15px;
+    border:20px ridge #555B6E;
+
 }
 
 nav ul {
 	list-style-type: none;
 	text-align: center;
+	background-color: #1B2A41;
+	padding: 5px;
+	padding-top: 30px;
+    
 }
 
 nav ul li{
     display: inline-block;	
     margin: 0 5px;
     font-size: 20px;
+     
 }
 
 li a:link, li a:active, li a:hover, li a:visited {
@@ -53,7 +69,9 @@ li a:hover {text-decoration: underline;
 
  main {
 	
-
+    width: 100%;
+    margin-top: 5%;
+    
 }
     
    
@@ -61,28 +79,24 @@ li a:hover {text-decoration: underline;
 section {
 	
 	color: #000;
-	background-image: url("http://www.renders-graphiques.fr/image/upload/normal/scrollrenderpn.png");
-	
+	background-image: url("http://www.renders-graphiques.fr/image/upload/normal/scrollrenderpn.png");	
 	background-position: center;/* centers the bg image */
 	background-repeat: no-repeat; /* makes sure the bg doesn't repeat */
  /* makes the bg not move */
-	background-size: cover; /* lets the bg fill the entire body */
-	display: table; /* allows the .container to be centered */
-    padding: 10px;
-	background-blend-mode: overlay;
+	display: table-cell; /* allows the .container to be centered */
+    padding: 10px;	
     background-size: 130% 130%;
     text-align: center;/* centers the text */
-	width: 98%;
-	height:200%;
-	vertical-align: middle; /* aligns .container in the middle of the page */
+	width: 90%;
+	height:200%;	
     margin-top: 10px;
     padding-right: 110px;
+
 }
 
 aside {
 	color: #000;
-	background-image: url("http://www.renders-graphiques.fr/image/upload/normal/scrollrenderpn.png");
-	
+	background-image: url("http://www.renders-graphiques.fr/image/upload/normal/scrollrenderpn.png");	
 	background-position: center;/* centers the bg image */
 	background-repeat: no-repeat; /* makes sure the bg doesn't repeat */
  /* makes the bg not move */
@@ -111,8 +125,7 @@ footer {
  	text-align: center;
  	padding: 10px;
  	color: #000;
-	background-image: url("http://www.dundjinni.com/forums/uploads/ardak2000/Z49_ParchmentBanner_ADK.png");
-	
+	background-image: url("http://www.dundjinni.com/forums/uploads/ardak2000/Z49_ParchmentBanner_ADK.png");	
 	background-position: center;/* centers the bg image */
 	background-repeat: no-repeat; /* makes sure the bg doesn't repeat */
  /* makes the bg not move */
