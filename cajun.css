@@ -21,16 +21,19 @@ body {
 header {
  
     padding-top:  10px;
+     color: #000;
+
 }
 
 header h1 {
 	text-align: center;
 	margin-left: 10px;
+	  color: #000;
 }
 header h2 {
 	text-align: center;
 	margin-left: 10px;
-
+    color: #000;
 }
 
 nav {
