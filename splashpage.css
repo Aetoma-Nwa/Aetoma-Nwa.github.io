@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 /* styles for body, container,
 and styles that are applied to multiple elements */
 
@@ -10,7 +11,7 @@ body, html {
 body {
 	font-family: Arial, sans-serif; /* changes the font */
 	background-image: url(); /* adds a bg image */
-	backgroun<!DOCTYPE html>d-position: center center; /* centers the bg image */
+	background-position: center center; /* centers the bg image */
 	background-repeat: no-repeat; /* makes sure the bg doesn't repeat */
 	background-attachment: fixed; /* makes the bg not move */
 	background-size: cover; /* lets the bg fill the entire body */
