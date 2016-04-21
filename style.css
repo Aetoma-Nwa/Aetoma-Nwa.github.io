@@ -1,6 +1,7 @@
 body {
 	background-color: #7a8dc1;
-	background-image:  url(Creole_Images/paper-815119_960_720.jpg); 	
+	background-image:  url(Creole_Images/paper-815119_960_720.jpg); 
+	background-attachment: fixed;	
 	color: #fff;
     font-family: Arial;
 
@@ -13,9 +14,14 @@ body {
 
 }
 
-#Flag {
+.flag {
 	border: 15px solid #555B6E;
 	border-style: ridge;
+}
+
+}
+.flag img{
+	margin: 0 0 -0.5% 0;
 }
 
 header {
@@ -35,6 +41,7 @@ header h2 {
 
 nav {
 	background-color: #ba1818;
+	width: 96%;
 	padding:5 5 5 5px;
 	padding-left: 15px;
 	padding-right: 15px;

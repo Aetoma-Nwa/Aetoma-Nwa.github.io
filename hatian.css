@@ -28,7 +28,6 @@ header {
  
     padding-top:  10px;
      color: #000;
-      padding-bottom: 20px;
 
 }
 
@@ -38,11 +37,6 @@ header h1 {
 	  color: #000;
 }
 
-header h2 {
-	text-align: center;
-	margin-left: 10px;
-}
-
 nav {
 	background-color: #ba1818;
 	width: 96%;
@@ -50,7 +44,6 @@ nav {
 	padding-left: 15px;
 	padding-right: 15px;
     border:20px ridge #555B6E;
-    padding-bottom: 20px;
 
 }
 
