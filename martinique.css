@@ -19,7 +19,7 @@ body {
 	border-style: ridge;
 }
 
-}
+
 .flag img{
 	margin: 0 0 -0.5% 0;
 }
@@ -27,16 +27,14 @@ body {
 header {
  
     padding-top:  10px;
+     color: #000;
+
 }
 
 header h1 {
 	text-align: center;
 	margin-left: 10px;
-}
-header h2 {
-	text-align: center;
-	margin-left: 10px;
-
+	  color: #000;
 }
 
 nav {
@@ -73,16 +71,14 @@ li a:hover {text-decoration: underline;
 	font-weight: bold;
 }
 
-
  main {
 	
     width: 100%;
     margin-top: 5%;
     
 }
-    
-   
 
+    
 section {
 	
 	color: #000;
